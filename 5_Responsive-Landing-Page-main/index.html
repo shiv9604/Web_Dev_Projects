@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing_Page</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400&family=Poppins:wght@500&family=Questrial&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <!-- <script src="./index.js"></script> -->
+    
+</head>
+
+<body>
+    <div class="header">
+        <img src="Instapage-logo-dark.svg" alt="" srcset="" class='img'>
+        <!-- <img src="menu.png" alt="" class='ham'> -->
+    </div>
+    <div class="main">
+        <div class="left">
+            <div class="hdngs">
+                <h1><b>Digital Personalization for Advertisers in 2020</b></h1>
+                <h4>How personalization is changing the modern advertising campaign</h4>
+            </div>
+            <div class="content">
+                <h3>In this new Instapage guide, learn:</h3>
+                <ul>
+                    <li>How data has played a major role in the evolution of advertising personalization.</li>
+                    <li>The one part of the ad campaign that continues to hurt advertisers’ ROI.</li>
+                    <li>The part of the ad campaign that advertisers continue to overlook.</li>
+                    <li>Use cases for marketing personalization at every funnel stage.</li>
+                    <li>The three pillars of a personalized post-click experience.</li>
+                </ul>
+            </div>
+            <div class="cards">
+                <div class="card">
+                    <img src="lerone-pieters-vF6mSAWAzzU-unsplash.jpg" alt="">
+
+                    <div class="carddetails">
+                        <h5>MR. Lorem</h5>
+                        <p class="jt">Chief Technology Officer</p>
+                        <p>Google Inc, Banglore</p>
+                    </div>
+                </div>
+                <div class="card" id='card2'>
+                    <img src="lerone-pieters-vF6mSAWAzzU-unsplash.jpg" alt="">
+
+                    <div class="carddetails">
+                        <h5>MR. Lorem</h5>
+                        <p class="jt">Chief Technology Officer</p>
+                        <p>Google Inc, Banglore</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="right">
+            <form action="#" name="form" id="form">
+                <div class="form" method='post'>
+                    <h3>Read Now</h3>
+                    <div class="frmcnt">
+                        <p>First Name*</p>
+                        <input type="text" class='inputfield' name="fname" id='fname'>
+                        <small class="errormsg" id="errfname"></small>
+                    </div>
+                    <div class="frmcnt">
+                        <p>Last Name*</p>
+                        <input type="text" class='inputfield' name="lname" id="lname">
+                        <small class="errormsg" id="errlname"></small>
+                    </div>
+                    <div class="frmcnt">
+                        <p>Email*</p>
+                        <input type="text" class='inputfield' name="email" id='email'>
+                        <small class="errormsg" id="erremail"></small>
+                    </div>
+                    <div class="frmcnt">
+                        <p>Preferred Phone Number*</p>
+                        <input type="text" class='inputfield' name="phnnumber" id="phone">
+                        <small class="errormsg" id="errphone"></small>
+                    </div>
+                    <div class="frmcnt">
+                        <p>Company*</p>
+                        <input type="text" class='inputfield' name="company" id="company">
+                        <small class="errormsg" id="errcompany"></small>
+                    </div>
+                    <div class="frmcnt">
+                        <p>Title*</p>
+                        <input type="text" class='inputfield' name="title" id="title">
+                        <small class="errormsg" id="errtitle"></small>
+                    </div>
+                    <div class="frmcnt">
+                        <p>State*</p>
+                        <select name="state" id="state" class="frmcnt dropdown inputfield">    
+                            <option value=""></option>
+                            <option value="AL">Alabama</option>
+                            <option value="AK">Alaska</option>
+                            <option value="AZ">Arizona</option>
+                            <option value="AR">Arkansas</option>
+                            <option value="CA">California</option>
+                            <option value="CO">Colorado</option>
+                            <option value="CT">Connecticut</option>
+                            <option value="DE">Delaware</option>
+                            <option value="DC">District of Columbia</option>
+                            <option value="FL">Florida</option>
+                            <option value="GA">Georgia</option>
+                            <option value="HI">Hawaii</option>
+                            <option value="ID">Idaho</option>
+                            <option value="IL">Illinois</option>
+                            <option value="IN">Indiana</option>
+                            <option value="IA">Iowa</option>
+                            <option value="KS">Kansas</option>
+                            <option value="KY">Kentucky</option>
+                            <option value="LA">Louisiana</option>
+                            <option value="ME">Maine</option>
+                            <option value="MD">Maryland</option>
+                            <option value="MA">Massachusetts</option>
+                            <option value="MI">Michigan</option>
+                            <option value="MN">Minnesota</option>
+                            <option value="MS">Mississippi</option>
+                            <option value="MO">Missouri</option>
+                            <option value="MT">Montana</option>
+                            <option value="NE">Nebraska</option>
+                            <option value="NV">Nevada</option>
+                            <option value="NH">New Hampshire</option>
+                            <option value="NJ">New Jersey</option>
+                            <option value="NM">New Mexico</option>
+                            <option value="NY">New York</option>
+                            <option value="NC">North Carolina</option>
+                            <option value="ND">North Dakota</option>
+                            <option value="OH">Ohio</option>
+                            <option value="OK">Oklahoma</option>
+                            <option value="OR">Oregon</option>
+                            <option value="PA">Pennsylvania</option>
+                            <option value="PR">Puerto Rico</option>
+                            <option value="RI">Rhode Island</option>
+                            <option value="SC">South Carolina</option>
+                            <option value="SD">South Dakota</option>
+                            <option value="TN">Tennessee</option>
+                            <option value="TX">Texas</option>
+                            <option value="UT">Utah</option>
+                            <option value="VT">Vermont</option>
+                            <option value="VA">Virginia</option>
+                            <option value="WA">Washington</option>
+                            <option value="WV">West Virginia</option>
+                            <option value="WI">Wisconsin</option>
+                            <option value="WY">Wyoming</option>
+                            <option value="Not Applicable">Not Applicable</option>
+                        </select>
+                        <small class="errormsg" id='errstate'></small>
+                    </div>
+                    <div class="frmcnt">
+                        <p>Country or Region*</p>
+                        <select name=country" id="country" class="frmcnt dropdown inputfield">
+                            <option value=""></option>
+                            <option id="form_0974_fld_11-0" value="AF">Afghanistan</option>
+                            <option id="form_0974_fld_11-1" value="AL">Albania</option>
+                            <option id="form_0974_fld_11-2" value="DZ">Algeria</option>
+                            <option id="form_0974_fld_11-3" value="AS">American Samoa</option>
+                            <option id="form_0974_fld_11-4" value="AD">Andorra</option>
+                            <option id="form_0974_fld_11-5" value="AO">Angola</option>
+                            <option id="form_0974_fld_11-6" value="AI">Anguilla</option>
+                            <option id="form_0974_fld_11-7" value="AQ">Antarctica</option>
+                            <option id="form_0974_fld_11-8" value="AG">Antigua and Barbuda</option>
+                            <option id="form_0974_fld_11-9" value="AR">Argentina</option>
+                            <option id="form_0974_fld_11-10" value="AM">Armenia</option>
+                            <option id="form_0974_fld_11-11" value="AW">Aruba</option>
+                            <option id="form_0974_fld_11-12" value="AU">Australia</option>
+                            <option id="form_0974_fld_11-13" value="AT">Austria</option>
+                            <option id="form_0974_fld_11-14" value="AZ">Azerbaijan</option>
+                            <option id="form_0974_fld_11-15" value="BS">Bahamas</option>
+                            <option id="form_0974_fld_11-16" value="BH">Bahrain</option>
+                            <option id="form_0974_fld_11-17" value="BD">Bangladesh</option>
+                            <option id="form_0974_fld_11-18" value="BB">Barbados</option>
+                            <option id="form_0974_fld_11-19" value="BY">Belarus</option>
+                            <option id="form_0974_fld_11-20" value="BE">Belgium</option>
+                            <option id="form_0974_fld_11-21" value="BZ">Belize</option>
+                            <option id="form_0974_fld_11-22" value="BJ">Benin</option>
+                            <option id="form_0974_fld_11-23" value="BM">Bermuda</option>
+                            <option id="form_0974_fld_11-24" value="BT">Bhutan</option>
+                            <option id="form_0974_fld_11-25" value="BO">Bolivia</option>
+                            <option id="form_0974_fld_11-26" value="BQ">Bonaire</option>
+                            <option id="form_0974_fld_11-27" value="BA">Bosnia</option>
+                            <option id="form_0974_fld_11-28" value="BW">Botswana</option>
+                            <option id="form_0974_fld_11-29" value="BV">Bouvet Island</option>
+                            <option id="form_0974_fld_11-30" value="BR">Brazil</option>
+                            <option id="form_0974_fld_11-31" value="IO">British Indian Ocean Territory</option>
+                            <option id="form_0974_fld_11-32" value="BN">Brunei</option>
+                            <option id="form_0974_fld_11-33" value="BG">Bulgaria</option>
+                            <option id="form_0974_fld_11-34" value="BF">Burkina Faso</option>
+                            <option id="form_0974_fld_11-35" value="BI">Burundi</option>
+                            <option id="form_0974_fld_11-36" value="KH">Cambodia</option>
+                            <option id="form_0974_fld_11-37" value="CM">Cameroon</option>
+                            <option id="form_0974_fld_11-38" value="CA">Canada</option>
+                            <option id="form_0974_fld_11-39" value="CV">Cape Verde</option>
+                            <option id="form_0974_fld_11-40" value="KY">Cayman Islands</option>
+                            <option id="form_0974_fld_11-41" value="CF">Central African Republic</option>
+                            <option id="form_0974_fld_11-42" value="TD">Chad</option>
+                            <option id="form_0974_fld_11-43" value="CL">Chile</option>
+                            <option id="form_0974_fld_11-44" value="CN">China</option>
+                            <option id="form_0974_fld_11-45" value="CX">Christmas Island</option>
+                            <option id="form_0974_fld_11-46" value="CC">Cocos Islands</option>
+                            <option id="form_0974_fld_11-47" value="CO">Colombia</option>
+                            <option id="form_0974_fld_11-48" value="KM">Comoros</option>
+                            <option id="form_0974_fld_11-49" value="CG">Congo</option>
+                            <option id="form_0974_fld_11-50" value="CD">Congo, Dem. Rep.</option>
+                            <option id="form_0974_fld_11-51" value="CK">Cook Islands</option>
+                            <option id="form_0974_fld_11-52" value="CR">Costa Rica</option>
+                            <option id="form_0974_fld_11-53" value="HR">Croatia</option>
+                            <option id="form_0974_fld_11-54" value="CU">Cuba</option>
+                            <option id="form_0974_fld_11-55" value="CW">CuraÃƒÆ’Ã‚Â§ao</option>
+                            <option id="form_0974_fld_11-56" value="CY">Cyprus</option>
+                            <option id="form_0974_fld_11-57" value="CZ">Czech Republic</option>
+                            <option id="form_0974_fld_11-58" value="DK">Denmark</option>
+                            <option id="form_0974_fld_11-59" value="DJ">Djibouti</option>
+                            <option id="form_0974_fld_11-60" value="DM">Dominica</option>
+                            <option id="form_0974_fld_11-61" value="DO">Dominican Republic</option>
+                            <option id="form_0974_fld_11-62" value="EC">Ecuador</option>
+                            <option id="form_0974_fld_11-63" value="EG">Egypt</option>
+                            <option id="form_0974_fld_11-64" value="SV">El Salvador</option>
+                            <option id="form_0974_fld_11-65" value="GQ">Equatorial Guinea</option>
+                            <option id="form_0974_fld_11-66" value="ER">Eritrea</option>
+                            <option id="form_0974_fld_11-67" value="EE">Estonia</option>
+                            <option id="form_0974_fld_11-68" value="ET">Ethiopia</option>
+                            <option id="form_0974_fld_11-69" value="FK">Falkland Islands (Malvinas)</option>
+                            <option id="form_0974_fld_11-70" value="FO">Faroe Islands</option>
+                            <option id="form_0974_fld_11-71" value="FJ">Fiji</option>
+                            <option id="form_0974_fld_11-72" value="FI">Finland</option>
+                            <option id="form_0974_fld_11-73" value="FR">France</option>
+                            <option id="form_0974_fld_11-74" value="GF">French Guiana</option>
+                            <option id="form_0974_fld_11-75" value="PF">French Polynesia</option>
+                            <option id="form_0974_fld_11-76" value="TF">French Southern Territories</option>
+                            <option id="form_0974_fld_11-77" value="GA">Gabon</option>
+                            <option id="form_0974_fld_11-78" value="GM">Gambia</option>
+                            <option id="form_0974_fld_11-79" value="GE">Georgia</option>
+                            <option id="form_0974_fld_11-80" value="DE">Germany</option>
+                            <option id="form_0974_fld_11-81" value="GH">Ghana</option>
+                            <option id="form_0974_fld_11-82" value="GI">Gibraltar</option>
+                            <option id="form_0974_fld_11-83" value="GR">Greece</option>
+                            <option id="form_0974_fld_11-84" value="GL">Greenland</option>
+                            <option id="form_0974_fld_11-85" value="GD">Grenada</option>
+                            <option id="form_0974_fld_11-86" value="GP">Guadeloupe</option>
+                            <option id="form_0974_fld_11-87" value="GU">Guam</option>
+                            <option id="form_0974_fld_11-88" value="GT">Guatemala</option>
+                            <option id="form_0974_fld_11-89" value="GG">Guernsey</option>
+                            <option id="form_0974_fld_11-90" value="GN">Guinea</option>
+                            <option id="form_0974_fld_11-91" value="GW">Guinea-Bissau</option>
+                            <option id="form_0974_fld_11-92" value="GY">Guyana</option>
+                            <option id="form_0974_fld_11-93" value="HT">Haiti</option>
+                            <option id="form_0974_fld_11-94" value="HM">Heard Island</option>
+                            <option id="form_0974_fld_11-95" value="HN">Honduras</option>
+                            <option id="form_0974_fld_11-96" value="HK">Hong Kong</option>
+                            <option id="form_0974_fld_11-97" value="HU">Hungary</option>
+                            <option id="form_0974_fld_11-98" value="IS">Iceland</option>
+                            <option id="form_0974_fld_11-99" value="IN">India</option>
+                            <option id="form_0974_fld_11-100" value="ID">Indonesia</option>
+                            <option id="form_0974_fld_11-101" value="IR">Iran</option>
+                            <option id="form_0974_fld_11-102" value="IQ">Iraq</option>
+                            <option id="form_0974_fld_11-103" value="IE">Ireland</option>
+                            <option id="form_0974_fld_11-104" value="IM">Isle of Man</option>
+                            <option id="form_0974_fld_11-105" value="IL">Israel</option>
+                            <option id="form_0974_fld_11-106" value="IT">Italy</option>
+                            <option id="form_0974_fld_11-107" value="CI">Ivory Coast</option>
+                            <option id="form_0974_fld_11-108" value="JM">Jamaica</option>
+                            <option id="form_0974_fld_11-109" value="JP">Japan</option>
+                            <option id="form_0974_fld_11-110" value="JE">Jersey</option>
+                            <option id="form_0974_fld_11-111" value="JO">Jordan</option>
+                            <option id="form_0974_fld_11-112" value="KZ">Kazakhstan</option>
+                            <option id="form_0974_fld_11-113" value="KE">Kenya</option>
+                            <option id="form_0974_fld_11-114" value="KI">Kiribati</option>
+                            <option id="form_0974_fld_11-115" value="KR">Korea</option>
+                            <option id="form_0974_fld_11-116" value="KP">Korea, DPRK</option>
+                            <option id="form_0974_fld_11-117" value="KW">Kuwait</option>
+                            <option id="form_0974_fld_11-118" value="KG">Kyrgyzstan</option>
+                            <option id="form_0974_fld_11-119" value="LA">Laos</option>
+                            <option id="form_0974_fld_11-120" value="LV">Latvia</option>
+                            <option id="form_0974_fld_11-121" value="LB">Lebanon</option>
+                            <option id="form_0974_fld_11-122" value="LS">Lesotho</option>
+                            <option id="form_0974_fld_11-123" value="LR">Liberia</option>
+                            <option id="form_0974_fld_11-124" value="LY">Libya</option>
+                            <option id="form_0974_fld_11-125" value="LI">Liechtenstein</option>
+                            <option id="form_0974_fld_11-126" value="LT">Lithuania</option>
+                            <option id="form_0974_fld_11-127" value="LU">Luxembourg</option>
+                            <option id="form_0974_fld_11-128" value="MO">Macao</option>
+                            <option id="form_0974_fld_11-129" value="MK">Macedonia</option>
+                            <option id="form_0974_fld_11-130" value="MG">Madagascar</option>
+                            <option id="form_0974_fld_11-131" value="MW">Malawi</option>
+                            <option id="form_0974_fld_11-132" value="MY">Malaysia</option>
+                            <option id="form_0974_fld_11-133" value="MV">Maldives</option>
+                            <option id="form_0974_fld_11-134" value="ML">Mali</option>
+                            <option id="form_0974_fld_11-135" value="MT">Malta</option>
+                            <option id="form_0974_fld_11-136" value="MH">Marshall Islands</option>
+                            <option id="form_0974_fld_11-137" value="MQ">Martinique</option>
+                            <option id="form_0974_fld_11-138" value="MR">Mauritania</option>
+                            <option id="form_0974_fld_11-139" value="MU">Mauritius</option>
+                            <option id="form_0974_fld_11-140" value="YT">Mayotte</option>
+                            <option id="form_0974_fld_11-141" value="MX">Mexico</option>
+                            <option id="form_0974_fld_11-142" value="FM">Micronesia, Fed.</option>
+                            <option id="form_0974_fld_11-143" value="MD">Moldova</option>
+                            <option id="form_0974_fld_11-144" value="MC">Monaco</option>
+                            <option id="form_0974_fld_11-145" value="MN">Mongolia</option>
+                            <option id="form_0974_fld_11-146" value="ME">Montenegro</option>
+                            <option id="form_0974_fld_11-147" value="MS">Montserrat</option>
+                            <option id="form_0974_fld_11-148" value="MA">Morocco</option>
+                            <option id="form_0974_fld_11-149" value="MZ">Mozambique</option>
+                            <option id="form_0974_fld_11-150" value="MM">Myanmar</option>
+                            <option id="form_0974_fld_11-151" value="NA">Namibia</option>
+                            <option id="form_0974_fld_11-152" value="NR">Nauru</option>
+                            <option id="form_0974_fld_11-153" value="NP">Nepal</option>
+                            <option id="form_0974_fld_11-154" value="NL">Netherlands</option>
+                            <option id="form_0974_fld_11-155" value="NC">New Caledonia</option>
+                            <option id="form_0974_fld_11-156" value="NZ">New Zealand</option>
+                            <option id="form_0974_fld_11-157" value="NI">Nicaragua</option>
+                            <option id="form_0974_fld_11-158" value="NE">Niger</option>
+                            <option id="form_0974_fld_11-159" value="NG">Nigeria</option>
+                            <option id="form_0974_fld_11-160" value="NU">Niue</option>
+                            <option id="form_0974_fld_11-161" value="NF">Norfolk Island</option>
+                            <option id="form_0974_fld_11-162" value="MP">Northern Marianas</option>
+                            <option id="form_0974_fld_11-163" value="NO">Norway</option>
+                            <option id="form_0974_fld_11-164" value="OM">Oman</option>
+                            <option id="form_0974_fld_11-165" value="PK">Pakistan</option>
+                            <option id="form_0974_fld_11-166" value="PW">Palau</option>
+                            <option id="form_0974_fld_11-167" value="PS">Palestinian Terr.</option>
+                            <option id="form_0974_fld_11-168" value="PA">Panama</option>
+                            <option id="form_0974_fld_11-169" value="PG">Papua New Guinea</option>
+                            <option id="form_0974_fld_11-170" value="PY">Paraguay</option>
+                            <option id="form_0974_fld_11-171" value="PE">Peru</option>
+                            <option id="form_0974_fld_11-172" value="PH">Philippines</option>
+                            <option id="form_0974_fld_11-173" value="PN">Pitcairn</option>
+                            <option id="form_0974_fld_11-174" value="PL">Poland</option>
+                            <option id="form_0974_fld_11-175" value="PT">Portugal</option>
+                            <option id="form_0974_fld_11-176" value="PR">Puerto Rico</option>
+                            <option id="form_0974_fld_11-177" value="QA">Qatar</option>
+                            <option id="form_0974_fld_11-178" value="RO">Romania</option>
+                            <option id="form_0974_fld_11-179" value="RU">Russia</option>
+                            <option id="form_0974_fld_11-180" value="RW">Rwanda</option>
+                            <option id="form_0974_fld_11-181" value="RE">RÃƒÆ’Ã‚Â©union</option>
+                            <option id="form_0974_fld_11-182" value="BL">Saint BarthÃƒÆ’Ã‚Â©lemy</option>
+                            <option id="form_0974_fld_11-183" value="SH">Saint Helena</option>
+                            <option id="form_0974_fld_11-184" value="KN">Saint Kitts and Nevis</option>
+                            <option id="form_0974_fld_11-185" value="LC">Saint Lucia</option>
+                            <option id="form_0974_fld_11-186" value="MF">Saint Martin (French)</option>
+                            <option id="form_0974_fld_11-187" value="PM">Saint Pierre and Miquelon</option>
+                            <option id="form_0974_fld_11-188" value="VC">Saint Vincent</option>
+                            <option id="form_0974_fld_11-189" value="WS">Samoa</option>
+                            <option id="form_0974_fld_11-190" value="SM">San Marino</option>
+                            <option id="form_0974_fld_11-191" value="ST">Sao Tome &amp; Principe</option>
+                            <option id="form_0974_fld_11-192" value="SA">Saudi Arabia</option>
+                            <option id="form_0974_fld_11-193" value="SN">Senegal</option>
+                            <option id="form_0974_fld_11-194" value="RS">Serbia</option>
+                            <option id="form_0974_fld_11-195" value="SC">Seychelles</option>
+                            <option id="form_0974_fld_11-196" value="SL">Sierra Leone</option>
+                            <option id="form_0974_fld_11-197" value="SG">Singapore</option>
+                            <option id="form_0974_fld_11-198" value="SX">Sint Maarten (Dutch)</option>
+                            <option id="form_0974_fld_11-199" value="SK">Slovakia</option>
+                            <option id="form_0974_fld_11-200" value="SI">Slovenia</option>
+                            <option id="form_0974_fld_11-201" value="SB">Solomon Islands</option>
+                            <option id="form_0974_fld_11-202" value="SO">Somalia</option>
+                            <option id="form_0974_fld_11-203" value="ZA">South Africa</option>
+                            <option id="form_0974_fld_11-204" value="GS">South Georgia and the South Sandwich Islands
+                            </option>
+                            <option id="form_0974_fld_11-205" value="SS">South Sudan</option>
+                            <option id="form_0974_fld_11-206" value="ES">Spain</option>
+                            <option id="form_0974_fld_11-207" value="LK">Sri Lanka</option>
+                            <option id="form_0974_fld_11-208" value="SD">Sudan</option>
+                            <option id="form_0974_fld_11-209" value="SR">Suriname</option>
+                            <option id="form_0974_fld_11-210" value="SJ">Svalbard</option>
+                            <option id="form_0974_fld_11-211" value="SZ">Swaziland</option>
+                            <option id="form_0974_fld_11-212" value="SE">Sweden</option>
+                            <option id="form_0974_fld_11-213" value="CH">Switzerland</option>
+                            <option id="form_0974_fld_11-214" value="SY">Syria</option>
+                            <option id="form_0974_fld_11-215" value="TW">Taiwan</option>
+                            <option id="form_0974_fld_11-216" value="TJ">Tajikistan</option>
+                            <option id="form_0974_fld_11-217" value="TZ">Tanzania</option>
+                            <option id="form_0974_fld_11-218" value="TH">Thailand</option>
+                            <option id="form_0974_fld_11-219" value="TL">Timor-Leste</option>
+                            <option id="form_0974_fld_11-220" value="TG">Togo</option>
+                            <option id="form_0974_fld_11-221" value="TK">Tokelau</option>
+                            <option id="form_0974_fld_11-222" value="TO">Tonga</option>
+                            <option id="form_0974_fld_11-223" value="TT">Trinidad and Tobago</option>
+                            <option id="form_0974_fld_11-224" value="TN">Tunisia</option>
+                            <option id="form_0974_fld_11-225" value="TR">Turkey</option>
+                            <option id="form_0974_fld_11-226" value="TM">Turkmenistan</option>
+                            <option id="form_0974_fld_11-227" value="TC">Turks and Caicos</option>
+                            <option id="form_0974_fld_11-228" value="TV">Tuvalu</option>
+                            <option id="form_0974_fld_11-229" value="AE">U.A.E.</option>
+                            <option id="form_0974_fld_11-230" value="UG">Uganda</option>
+                            <option id="form_0974_fld_11-231" value="UA">Ukraine</option>
+                            <option id="form_0974_fld_11-232" value="GB">United Kingdom</option>
+                            <option id="form_0974_fld_11-233" value="US">United States</option>
+                            <option id="form_0974_fld_11-234" value="UM">United States Minor Outlying Islands</option>
+                            <option id="form_0974_fld_11-235" value="UY">Uruguay</option>
+                            <option id="form_0974_fld_11-236" value="UZ">Uzbekistan</option>
+                            <option id="form_0974_fld_11-237" value="VU">Vanuatu</option>
+                            <option id="form_0974_fld_11-238" value="VA">Vatican City</option>
+                            <option id="form_0974_fld_11-239" value="VE">Venezuela</option>
+                            <option id="form_0974_fld_11-240" value="VN">Viet Nam</option>
+                            <option id="form_0974_fld_11-241" value="VG">Virgin Islands, British</option>
+                            <option id="form_0974_fld_11-242" value="VI">Virgin Islands, U.S.</option>
+                            <option id="form_0974_fld_11-243" value="WF">Wallis and Futuna</option>
+                            <option id="form_0974_fld_11-244" value="EH">Western Sahara</option>
+                            <option id="form_0974_fld_11-245" value="YE">Yemen</option>
+                            <option id="form_0974_fld_11-246" value="ZM">Zambia</option>
+                            <option id="form_0974_fld_11-247" value="ZW">Zimbabwe</option>
+                            <option id="form_0974_fld_11-248" value="AX">ÃƒÆ’Ã¢â‚¬Â¦land Islands</option>
+                        </select>
+                        <small class="errormsg" id="errcountry"></small>
+                    </div>
+                    <div class="frmcnt">
+                        <p>Company Size*</p>
+                        <select name="cmpsize" id="cmpsize" class="frmcnt dropdown inputfield">
+                            <option value=""></option>
+                            <option id="form_0974_fld_12-0" value="Less than 100">Less than 100</option>
+                            <option id="form_0974_fld_12-1" value="100 - 999">100 - 999</option>
+                            <option id="form_0974_fld_12-2" value="1000 - 4999">1000 - 4999</option>
+                            <option id="form_0974_fld_12-3" value="5000+">5000+</option>
+                        </select>
+                        <small class="errormsg" id="errcmpsize"></small>
+                    </div>
+                    <div class="frmcnt">
+                        <p>Industry*</p>
+                        <select name="industry" id="industry" class="frmcnt dropdown inputfield">
+                            <option value=""></option>
+                            <option id="form_0974_fld_13-0" value="Agriculture/Mining/Oil/Gas/Chemicals">
+                                Agriculture/Mining/Oil/Gas/Chemicals</option>
+                            <option id="form_0974_fld_13-1" value="ASP/SSP/MSP">ASP/SSP/MSP</option>
+                            <option id="form_0974_fld_13-2"
+                                value="Communications (Local/Long Distance/Independent/Cable)">
+                                Communications (Local/Long Distance/Independent/Cable)</option>
+                            <option id="form_0974_fld_13-3"
+                                value="Computer/Data Processing/Information Technology Services">Computer/Data
+                                Processing/Information Technology Services</option>
+                            <option id="form_0974_fld_13-4" value="Construction/Engineering/Architecture">
+                                Construction/Engineering/Architecture</option>
+                            <option id="form_0974_fld_13-5" value="Consulting/Professional Services (Computer Related)">
+                                Consulting/Professional Services (Computer Related)</option>
+                            <option id="form_0974_fld_13-6"
+                                value="Consulting/Professional Services (Non-Computer Related)">
+                                Consulting/Professional Services (Non-Computer Related)</option>
+                            <option id="form_0974_fld_13-7" value="Education">Education</option>
+                            <option id="form_0974_fld_13-8" value="Finance/Banking/Investment">
+                                Finance/Banking/Investment
+                            </option>
+                            <option id="form_0974_fld_13-9" value="Food/Beverage">Food/Beverage</option>
+                            <option id="form_0974_fld_13-10" value="Government">Government</option>
+                            <option id="form_0974_fld_13-11" value="Healthcare/Pharmaceutical">Healthcare/Pharmaceutical
+                            </option>
+                            <option id="form_0974_fld_13-12" value="Hospitality/Travel">Hospitality/Travel</option>
+                            <option id="form_0974_fld_13-13" value="Insurance/Real Estate">Insurance/Real Estate
+                            </option>
+                            <option id="form_0974_fld_13-14" value="Manufacturing (Computer Related)">Manufacturing
+                                (Computer Related)</option>
+                            <option id="form_0974_fld_13-15" value="Manufacturing (Non-Computer Related)">Manufacturing
+                                (Non-Computer Related)</option>
+                            <option id="form_0974_fld_13-16" value="Marketing/Advertising/PR">Marketing/Advertising/PR
+                            </option>
+                            <option id="form_0974_fld_13-17" value="Media/Entertainment/Publishing">
+                                Media/Entertainment/Publishing</option>
+                            <option id="form_0974_fld_13-18" value="Networking Services &amp; Technologies">Networking
+                                Services &amp; Technologies</option>
+                            <option id="form_0974_fld_13-19" value="Non-Profit/Trade">Non-Profit/Trade</option>
+                            <option id="form_0974_fld_13-20" value="Research and Development">Research and Development
+                            </option>
+                            <option id="form_0974_fld_13-21" value="Retailer/Distributor/Wholesaler (Computer Related)">
+                                Retailer/Distributor/Wholesaler (Computer Related)</option>
+                            <option id="form_0974_fld_13-22"
+                                value="Retailer/Distributor/Wholesaler (Non-Computer Related)">
+                                Retailer/Distributor/Wholesaler (Non-Computer Related)</option>
+                            <option id="form_0974_fld_13-23"
+                                value="Service Provider (Web Hosting/Data/Wireless/Online)">
+                                Service Provider (Web Hosting/Data/Wireless/Online)</option>
+                            <option id="form_0974_fld_13-24" value="Telecommunications">Telecommunications</option>
+                            <option id="form_0974_fld_13-25" value="Transportation">Transportation</option>
+                            <option id="form_0974_fld_13-26" value="Utilities/Energy">Utilities/Energy</option>
+                            <option id="form_0974_fld_13-27" value="VAR/VAD/Systems House/System Integrator">
+                                VAR/VAD/Systems
+                                House/System Integrator</option>
+                        </select>
+                        <small id="errindustry"></small>
+                    </div>
+                    <div class="frmcnt">
+                        <p>Custom Question 1</p>
+                        <select name="cq1" id='cq1' class="state" class="frmcnt dropdown inputfield">
+                            <option value=""></option>
+                            <option value="">1</option>
+                        </select>
+                        <small id="errcq1"></small>
+                    </div>
+                    <div class="frmcnt">
+                        <p>Custom Question 2</p>
+                        <select name="cq2" id='cq2' class="frmcnt  dropdown inputfield">
+                            <option value=""></option>
+                            <option value="">1</option>
+                        </select>
+                        <small id="errcq2"></small>
+                    </div>
+                    <div class="frmcnt">
+                        <p>Custom Question 3</p>
+                        <select name="cq3" id='cq3' class="frmcnt dropdown inputfield">
+                            <option value=""></option>
+                            <option value="">1</option>
+                        </select>
+                        <small id="errcq3"></small>
+                    </div>
+                    <div class="frmcnt">
+                        <p>Custom Question 4</p>
+                        <select name="cq4" id="cq4" class="frmcnt dropdown inputfield">
+                            <option value=""></option>
+                            <option value="">1</option>
+                        </select>
+                        <small id="errcq4"></small>
+                    </div>
+                    <div class="checkbox">
+                        <input type="checkbox" name="checkbox">
+                        <p>Contact me to schedule a demo</p>
+                    </div>
+                    <div class="btn">
+                        <button id="btn"  type="submit">GET THE GUIDE</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="footer">
+        <p>&copy;Instapage</p>
+    </div>
+    <!-- <script src="./app.js"></script> -->
+    <script src="./index.js"></script>
+</body>
+
+</html>
+<!-- onclick='valdator()' -->

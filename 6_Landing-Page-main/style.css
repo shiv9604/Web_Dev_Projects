@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    font-weight: 500;
+}
+body{
+    width: 100vw;
+    height:150vh;
+    /* border:1px solid red; */
+
+    background-image:url(/1_Landing_Page/lerone-pieters-vF6mSAWAzzU-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.container{
+    min-width: 100vw;
+    max-height: 7vh;
+    color:black;
+    /* justify-content: space-between; */
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ul li{
+    padding-top: 8px;
+    list-style: none;
+} 
+ul li h3{
+    font-weight: 700;
+}
+
+.navitems{
+    width: auto;
+    height: auto;
+    display: flex;
+}
+
+.navitems li{
+    margin: 0 25px;
+    font-size: 16px;
+}
+.bd{
+    display: flex;
+}
+img{
+    width: 100vw;
+    
+}
+.textcontainer{
+    /* border: 1px solid red; */
+    width: max-content;
+    margin-left: 3vw;
+    margin-top: 20vh;
+    height: max-content;
+    color:white;
+}
+
+.textcontainer h1{
+    font-size: 40px;
+    font-weight: 700;
+}
+.textcontainer h4{
+    font-size: 42px;
+}
+.form{
+    border-radius: 1vh;
+    width: 25vw;
+    height: max-content;
+    margin-left: 20vw;
+    margin-top: 5vh;
+    /* background-image: linear-gradient(315deg, #b8c6db 0%, #f5f7fa 74%);
+    border-radius: 1vh; */
+}
+.form .h4{
+    font-weight: 600;
+    padding:1vh;
+}
+.form-control{
+    margin-bottom: 1vh;
+    height: 5vh;
+    opacity: 70%;
+}
+.frstlst{
+    display: flex;
+}
+.form p{
+    font-size: 10px;
+    padding:3px 5px;
+}
+.btnz{
+    width: 11.5vw;
+    height: 5vh;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
+.btnz:hover{
+   background-color: rgb(76, 209, 202);
+   color: black; 
+   transition: 0.3s;
+}
+.lgn{
+    margin-top: 1vh;
+    display: flex;
+    color: white;
+}
+.lgn p{
+    font-size: 13px;
+    color: white;
+    font-weight: 600;
+}
+.lgn p:hover{
+ color:mediumturquoise;
+ transition: 0.3s;
+
+}
+input:hover{
+    border-color:grey;
+    transition: 0.3s;
+
+}
+.footer{
+    width: 100vw;
+    height: 6.5vh;
+    /* border: 1px solid red; */
+    background-color: rgba(0, 0, 0, 0.842);
+    color: white;
+}
+.footer ul{
+    display: flex;
+    align-items:center ;
+    justify-content: space-evenly;
+    /* padding-left:3vw; */
+}
+.footer ul li{
+    padding-top: 1.8vh;
+    font-weight: normal;   
+    opacity: 40%;
+}
+/* .blockitem{
+    background-color: whitesmoke;
+    color: black;
+} */

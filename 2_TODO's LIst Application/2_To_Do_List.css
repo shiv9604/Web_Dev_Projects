@@ -1,0 +1,163 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+   --color : whitesmoke;
+   --hovcolor : rgb(59, 255, 255);
+    
+}
+body{
+    width: 100%;
+    min-height:150vh;
+    box-sizing:border-box;
+    background:linear-gradient(147deg, #000000 0%, #2c3e50 74%);
+    color:var(--color);
+}
+
+ .header{
+    margin-top: 10px;
+    height:7vh;
+    width:100%;
+    display:flex;
+    /* border: 1px solid red; */
+    align-items:center; 
+    justify-content:flex-end;
+}
+
+.header nav ul{
+    display:flex;
+    justify-self: start;
+    
+}
+.header nav{
+    display: flex;
+    float: right;
+}
+.header nav ul li{
+    list-style: none;
+    font-size:1.9vh;
+    /* font-size:17.5px; */
+    padding:0 2vw;
+    padding-top: 1.3vh;
+    
+}
+img{
+    height: 25px;
+    width: 25px;
+    display: none;
+}
+a{
+    text-decoration: none;
+    color: var(--color);
+}
+a:hover{
+    color:var(--hovcolor);
+    transition:0.3s ;
+}
+.header nav h4{
+    font-size:25px;
+    padding-top:1vh;
+    margin-right: 53vw;
+}
+h4:hover{
+    color:var(--hovcolor);
+    transition:0.3s ;
+}
+
+h2{
+    text-align: center;
+    padding-top: 2vh;
+}
+.frm{
+    /* border:1px solid red; */
+    width: 100vw;
+    height: 40vh;
+    display: block;
+}
+label{
+    font-weight: 400;
+    font-size:0.9rem;
+    padding-left: 20vw;
+    padding-bottom: 1vh;
+    opacity: 95%;
+    
+}
+.frm input{
+    height:4vh;
+    width:60vw;
+    opacity: 99%;
+    background-color:whitesmoke;
+    border-radius: 0.3vh;
+}
+.frm input:hover{
+    box-shadow: 1px 1px 4px 1px var(--hovcolor);
+    transition:0.3s ;
+}
+
+.titlecontainer{
+    display:flex;
+    justify-content:center;
+    
+}
+small{
+    opacity: 75%;
+    padding-left: 20vw;
+}
+.smltext{
+    margin-top: 0.5vh;
+    font-size: 0.9em;
+}
+
+.disc{
+    padding-top: 2vh;
+}
+.discrpcontainer{
+    display:flex;
+    justify-content:center;
+}
+
+.btn{
+    margin-top: 0.8vh;
+    margin-left: 9.6vw;
+}
+.btn:hover{
+    color:white;
+    transition:0.3s ;
+}
+.frm{
+    margin-top:1vh;
+}
+.items{
+    margin-top:3vh;
+    padding-left:20vw;
+    display: flex;
+    height:auto;
+    width:80vw;
+    align-items:center;
+    justify-content: space-between;;
+}
+.table{
+    width:60vw;
+    margin-left:19.9vw;
+    margin-top:2.5vh;
+}
+.table{
+    display:table;
+}
+.dltbtn{
+    display:flex;
+    justify-content:left;
+}
+
+td button{
+    position: relative;
+    left: -9.7vw;
+    bottom:0.7vh;
+      
+}
+@media only screen and (max-width:700px){
+
+}
