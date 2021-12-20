@@ -1,0 +1,133 @@
+html{
+    font-size: 10px;
+}
+*{
+    font-family: 'Poppins', sans-serif;
+    
+}
+:root{
+    --main-color :#192f60;
+    --main--sec-color:#8c96ab;
+     
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+}
+.containerz{
+    background-position: middle center;
+    background-size: cover;
+    background-image: url("baner.png");
+    background-repeat: no-repeat;
+    height:500px;
+    width:100%;
+    font-size:1.6rem;   
+    
+}
+
+.navbar{
+    color:#ffffff;
+}
+.createacc{
+    border-radius: 3px;
+}
+.logo{
+    width:150px;
+    height:150px;
+    color:#ffffff;
+    margin:auto;
+            
+}
+.logo p{
+    height:150px;
+    width:150px;
+    font-size:6rem;
+    border-radius:50%;
+    color:#eb2929;
+    background-color: white;
+}
+.containerz h1{
+    text-align: center;
+    font-size: 3.6rem;
+    font-weight: 600;
+}
+.content{
+    color:var(--main-color);
+    
+}
+.text{
+    padding-left: 38px;
+}
+.content h1{
+    font-size:3rem;
+    text-align: start;
+    font-weight:bold;
+    
+}
+.content p{
+    font-size:1.8rem;
+    color:var(--main--sec-color);
+}
+
+.cardcontainer{
+}
+.cardcontainer .card{
+    width:360px;
+    height:160px;
+    margin:1.5% auto;
+    overflow: hidden;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    padding:0;
+}
+
+.wholecard img{
+    height:160px;
+    width:160px;
+    /* object-position: middle right; */
+    /* object-fit: cover; */
+    object-fit: none;
+
+}
+.wholecard .cardtxt{
+    
+    margin: auto 6%;
+}
+.wholecard .cardtxt h3{
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 1.5;
+    
+} 
+.wholecard .cardtxt p{
+    line-height: 1.4;
+    font-size: 1.4rem;
+} 
+.bars-container{
+    padding:0;
+    display: flex;
+    justify-content: center;
+}
+
+.searchinput{
+    max-width:477px;
+    height: 60px;
+    font-size: 1.5rem;
+    color: #636f88;
+    padding: 20px 25px;
+    display: flex;
+}
+.locationinput{
+    max-width:245px;
+    height: 60px;
+    font-size: 1.5rem;
+    color: #636f88;
+    padding: 20px 30px;
+    margin-right:21px;   
+}
+.searchinput i{
+    margin: auto 4% 0 0%;
+}
+
